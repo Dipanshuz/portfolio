@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+
+    <!-- Basic Styling -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background: #1f2933;
+            color: white;
+            padding: 20px 40px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        .hero {
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 8px 14px;
+            border-radius: 5px;
+            margin: 6px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            background: #1f2933;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #2563eb;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header>
+    <nav>
+        <h2>Your Name</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Hello, I'm Your Name</h1>
+    <p>Software Engineer | Data Scientist | Student</p>
+    <p>
+        I build efficient software solutions, analyze data, and work on AI-driven projects.
+    </p>
+    <a class="button" href="#projects">View My Work</a>
+</section>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Write a short professional summary here. Mention your background,
+        education, interests, and what type of roles you are targeting.
+    </p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Python</span>
+        <span>Java</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Machine Learning</span>
+        <span>Data Analysis</span>
+        <span>Git</span>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Project Title 1</h3>
+            <p>Short description of what the project does and what technologies you used.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Project Title 2</h3>
+            <p>Short description of what the project does and what technologies you used.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: https://github.com/yourusername</p>
+    <p>LinkedIn: https://linkedin.com/in/yourprofile</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
